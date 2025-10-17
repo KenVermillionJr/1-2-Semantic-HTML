@@ -24,6 +24,15 @@ body {
 .sub {
   color: #555;
 }
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 45%;
+}
+
 #content {
   display: grid;
   grid-template-columns: 2fr 1fr;
