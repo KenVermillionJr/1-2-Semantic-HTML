@@ -42,6 +42,7 @@ body {
 }
 .card {
   border: 1px solid #e5e7eb;
+  background-color: white;
   padding: 12px;
   border-radius: 8px;
 }
