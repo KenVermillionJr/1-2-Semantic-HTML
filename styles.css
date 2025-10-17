@@ -24,15 +24,6 @@ body {
 .sub {
   color: #555;
 }
-
-.left {
-    width: 55%;
-}
-
-.right {
-    width: 45%;
-}
-
 #content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -80,9 +71,9 @@ body {
   margin-bottom: 12px;
 }
 .post-img {
-  width: 75%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
-  margin: 8px 0; 
+  margin: 8px 0;
   display: block;
 }
