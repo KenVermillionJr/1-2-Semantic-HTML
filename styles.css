@@ -83,6 +83,7 @@ body {
   width: 75%;
   height: auto;
   border-radius: 8px;
-  margin: 8px 0;
+  margin: auto;
+  /* margin: 8px 0; */
   display: block;
 }
