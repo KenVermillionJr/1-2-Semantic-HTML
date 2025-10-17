@@ -27,6 +27,7 @@ body {
 
 .left {
     width: 55%;
+    margin: auto auto auto 35px;
 }
 
 .right {
