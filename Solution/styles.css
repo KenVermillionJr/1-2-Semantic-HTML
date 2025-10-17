@@ -2,6 +2,14 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.sidenav {
+  margin-top: 15px;
+  width: 55%;
+  padding-left: 15px;
+  margin-left:  15px;
+  float:  right;
+  /* background-color: lightgray; */
+}
 #topbar {
   display: flex;
   justify-content: space-between;
@@ -44,7 +52,7 @@ body {
   border: 1px solid #e5e7eb;
   background-color: white;
   /* background-color: eef2ff; */
-  margin: auto 25%;
+  margin: auto 10%;
   padding: 12px;
   border-radius: 8px;
 }
@@ -102,6 +110,30 @@ body {
   text-align: center;
   color: #777;
 }
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  right: 20;
+  /* background-color: #111; */
+  /* overflow-x: hidden; */
+  padding-top: 20px;
+}
+/*
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+*/
+.sidenav a:hover {
+  color: midnightblue
+}
+
 /* Images */
 .hero-img {
   max-width: 100%;
