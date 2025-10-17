@@ -43,20 +43,21 @@ body {
 .card {
   border: 1px solid #e5e7eb;
   background-color: white;
+  /* background-color: eef2ff; */
   margin: auto 25%;
   padding: 12px;
   border-radius: 8px;
 }
 .post-title {
   font-size: 20px;
-  /* margin-bottom: 4px; */
-  margin: auto 25%;
+  margin-bottom: 4px;
+  /* margin: auto 25%; */
 }
 .post-meta {
   font-size: 12px;
   color: #666;
-  /* margin-bottom: 8px; */
-  margin: auto 25%;
+  margin-bottom: 8px;
+  /* margin: auto 25%; */
 }
 .panel-title {
   font-weight: 600;
