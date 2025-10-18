@@ -63,12 +63,14 @@ body {
 #content {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  /* removes whitespace at bottom of grid */
   grid-template-rows: 100% 100% 1fr auto;
   border: 2px;
   border-color: black;
   /* gap: 25px; */
   /* row-gap: 25px; */
   /* column-gap: 25px; */
+  /* should place gutter spacing horizontal and vertical */
   grid-gap: 25px 25px;
   padding: 16px;
 }
