@@ -18,54 +18,48 @@
       </nav>
     </header>
 
-    <main id="hero">
-      <section>
-        <img class="hero-img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Traveler overlooking mountains">
+     <main id="hero">
+
+     <section>
+     <img class="hero-img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Traveler overlooking mountains">
         <h3 class="headline">Stories from the road</h3>
         <p class="sub">Notes, photos, and pocket itineraries.</p>
       </section>
-    </main>
+    
+     <section class="layout">
 
-    <section id="content"> <!-- styling applies to all children-->   
-
-    <!-- <section class="left-col">  not in css -->      
-    <section>
+     <header><h2 class="post-title"></h2></header><!-- null heading -->
       
-        <article class="card"> <!-- not in css-->
+     <article class="card"> 
+      <header>
+      <h4 class="post-title">Kyoto in 48 Hours</h4>
+      </header>
+      <p class="post-meta">May 2025 · Asia · Budget</p>
+      <img class="post-img" src="https://picsum.photos/id/1016/800/500" alt="Kyoto trip collage">
+      <p>Temple hopping, alley ramen, and morning markets.</p>
+      </article>    
+
+      <aside> 
+      <h4 class="panel-title">Popular Tags</h4>
+      <nav class="tag-list">
+      <a href="#" class="tag">streetfood</a>
+      <a href="#" class="tag">itinerary</a>
+      <a href="#" class="tag">budget</a>
+      </nav>
+      </aside>   
+ 
+       <article class="card"> 
         <header>
-        <h4 class="post-title">Kyoto in 48 Hours</h4>
+        <h4 class="post-title">Lisbon Hill Walk</h4>
         </header>
-        <p class="post-meta">May 2025 · Asia · Budget</p>
-        <img class="post-img" src="https://picsum.photos/id/1016/800/500" alt="Kyoto trip collage">
-        <p>Temple hopping, alley ramen, and morning markets.</p>
+        <p class="post-meta">April 2025 · Europe · Walkable</p>
+        <img class="post-img" src="https://picsum.photos/id/1035/800/500" alt="Lisbon city view">
+        <p>Tiles, trams, and sunset at Miradouro.</p>          
         </article>    
 
-        <article class="card"> <!-- not in css-->
-          <header>
-          <h4 class="post-title">Lisbon Hill Walk</h4>
-          </header>
-          <p class="post-meta">April 2025 · Europe · Walkable</p>
-          <img class="post-img" src="https://picsum.photos/id/1035/800/500" alt="Lisbon city view">
-          <p>Tiles, trams, and sunset at Miradouro.</p>          
-        </article>
+    </section> 
 
-      </section> <!-- left-col styling, not in css-->
-
-    <!-- <section class="right-col"> not in css-->
-    <section>
-
-        <aside class="panel"> <!-- not in css -->
-          <h4 class="panel-title">Popular Tags</h4>
-          <nav class="tag-list">
-            <a href="#" class="tag">streetfood</a>
-            <a href="#" class="tag">itinerary</a>
-            <a href="#" class="tag">budget</a>
-          </nav>
-        </aside>
-        
-    </section> <!-- right-col styling, not in css -->
-
-    </section> <!-- .content styling, to all children (grid/flow) -->
+  </main>
 
     <footer id="bottombar">
       <p class="copy">© 2025 WanderNote</p>
