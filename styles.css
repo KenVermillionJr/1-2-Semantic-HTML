@@ -14,7 +14,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: ##f7f7f7;
+  background-color: #f7f7f7;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -62,8 +62,11 @@ body {
 
 #content {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 16px;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  row-gap: 25px;
+  column-gap: 25px;
+  /* grid-gap: 25px 25px; */
   padding: 16px;
 }
 .layout {
@@ -72,6 +75,7 @@ body {
 .card {
   border: 1px solid #e5e7eb;
   background-color: white;
+  box-shadow: 2px 2px 2px black;
   /* background-color: eef2ff; */
   margin: auto 10%;
   padding: 12px;
@@ -140,12 +144,14 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
   margin-bottom: 12px;
 }
 .post-img {
   width: 75%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
   margin: 8px 0; 
   display: inline-flex;
 }
