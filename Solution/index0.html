@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>WanderNote — Travel Journal</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-   
-   <header id="topbar">
+    <header id="topbar">
       <h2 class="logo">WanderNote</h2>
       <nav class="links">
         <a class="nav-link" href="#">Home</a>
@@ -18,52 +17,72 @@
       </nav>
     </header>
 
-    <main id="hero">
-      <section>
-        <img class="hero-img" src="./images/wandernote-spotlight.png" alt="Traveler overlooking mountains">
+    <main>
+      <section id="hero">
+        <img
+          class="hero-img"
+          src="./images/wandernote-spotlight_sm.png"
+          alt="Traveler overlooking mountains"
+        />
         <h3 class="headline">Stories from the road</h3>
         <p class="sub">Notes, photos, and pocket itineraries.</p>
       </section>
-    </main>
 
-    <section id="content"> 
-    <!-- need a heading for this section with styling -->
-     
-    <!-- <section class="left-col">  not in css --> 
-    <section> 
-        <h4 class="section-heading">Travel Highlights</h4>
-        <article class="card"> 
-        <header>
-        <h4 class="post-title">Kyoto in 48 Hours</h4>
-        </header>
-        <p class="post-meta">May 2025 · Asia · Budget</p>
-        <img class="post-img" src="https://picsum.photos/id/1016/800/500" alt="Kyoto trip collage">
-        <p>Temple hopping, alley ramen, and morning markets.</p>
-        </article>    
+      <section id="content">
+        <!-- need a heading for this section with styling -->
+        <!-- <h4 class="text-container" style="width: 100%">
+          Take a Journey with Us
+        </h4> -->
 
-        <article class="card"> 
+        <!-- <section class="left-col">  not in css -->
+        <section>
+          <h4 class="section-heading">Travel Highlights</h4>
+          <article class="card">
+            <header>
+              <h4 class="post-title">Kyoto in 48 Hours</h4>
+            </header>
+            <p class="post-meta">May 2025 · Asia · Budget</p>
+            <img
+              class="post-img"
+              src="https://picsum.photos/id/1016/800/500"
+              alt="Kyoto trip collage"
+            />
+            <p>Temple hopping, alley ramen, and morning markets.</p>
+          </article>
+
+          <article class="card">
+            <header>
+              <h4 class="post-title">Lisbon Hill Walk</h4>
+            </header>
+            <p class="post-meta">April 2025 · Europe · Walkable</p>
+            <img
+              class="post-img"
+              src="https://picsum.photos/id/1035/800/500"
+              alt="Lisbon city view"
+            />
+            <p>Tiles, trams, and sunset at Miradouro.</p>
+          </article>
+        </section>
+        <!-- end of article section -->
+
+        <!-- <section class="right-col"> not in css-->
+        <section>
           <header>
-          <h4 class="post-title">Lisbon Hill Walk</h4>
+            <h4 class="section-heading">Deeper Dive</h4>
           </header>
-          <p class="post-meta">April 2025 · Europe · Walkable</p>
-          <img class="post-img" src="https://picsum.photos/id/1035/800/500" alt="Lisbon city view">
-          <p>Tiles, trams, and sunset at Miradouro.</p>          
-        </article>
-      </section> 
-
-    <!-- <section class="right-col"> not in css-->
-    <section> 
-        <h4 class="section-heading">Deeper Dive</h4>
-        <aside class="card"> 
-          <h4 class="panel-title">Popular Tags</h4>
-          <nav class="tag-list">
-            <a href="#" class="tag">streetfood</a>
-            <a href="#" class="tag">itinerary</a>
-            <a href="#" class="tag">budget</a>
-          </nav>
-        </aside>
-    </section> <!-- right-col styling, not in css -->
-  </section> <!-- .content / grid styling -->
+          <aside class="card">
+            <h4 class="panel-title">Popular Tags</h4>
+            <nav class="tag-list">
+              <a href="#" class="tag">streetfood</a>
+              <a href="#" class="tag">itinerary</a>
+              <a href="#" class="tag">budget</a>
+            </nav>
+          </aside>
+        </section>
+        <!-- end of right nav section -->
+      </section>
+      <!-- .content / grid styling -->
+    </main>
 
     <footer id="bottombar">
       <p class="copy">© 2025 WanderNote</p>
