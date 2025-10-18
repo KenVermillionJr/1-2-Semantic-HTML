@@ -9,8 +9,8 @@ body {
 .sidenav {
   height: 100%;
   width: 200px;
-  position: relative;
-  margin:auto;
+  position: absolute;
+  margin-top:66em;
   z-index: 1;
   top: 0;
   right: 0;
