@@ -2,15 +2,18 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 200px;
+  /* Same as the width of the sidenav */
 }
+
 /* added sidenav class also ref .main */
 .sidenav {
   height: 100%;
   width: 200px;
   position: absolute;
-  margin-top:66rem;
+  margin-top: 66rem;
   z-index: 1;
   top: 0;
   right: 0;
@@ -18,6 +21,7 @@ body {
   overflow-x: hidden;
   padding-top: 20px;
 }
+
 .sidenav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
@@ -25,9 +29,11 @@ body {
   /* color: #818181; */
   display: block;
 }
+
 .sidenav a:hover {
   color: midnightblue;
 }
+
 #topbar {
   display: flex;
   justify-content: space-between;
@@ -35,9 +41,11 @@ body {
   border-bottom: 1px solid #e5e7eb;
   background: #f9fafb;
 }
+
 .logo {
   font-weight: bold;
 }
+
 #hero {
   padding: 48px 16px;
   border: 1px solid;
@@ -45,21 +53,23 @@ body {
   background: #eef2ff;
   text-align: center;
 }
+
 .headline {
   font-size: 28px;
   margin-bottom: 8px;
 }
+
 .sub {
   color: #555;
 }
 
 .left {
-    width: 55%;
-    margin: auto auto auto 35px;
+  width: 55%;
+  margin: auto auto auto 35px;
 }
 
 .right {
-    width: 45%;
+  width: 45%;
 }
 
 #content {
@@ -77,17 +87,20 @@ body {
   grid-gap: 25px 25px;
   padding: 16px;
 }
+
 .layout {
   display: flex;
 }
+
 .card {
   border: 1px solid #e5e7eb;
   background-color: white;
-  box-shadow: 2px 2px 2px black;  
+  box-shadow: 2px 2px 2px black;
   margin: 0 0 15px 0;
   padding: 12px;
   border-radius: 8px;
 }
+
 .panel-right {
   position: relative;
   top: 80px;
@@ -98,33 +111,47 @@ body {
   padding: 12px;
   border-radius: 8px;
 }
+
 .post-title {
   font-size: 20px;
   margin-bottom: 4px;
   width: auto;
- }
- .section-headline {
+}
+
+.section-headline {
   font-size: 20px;
   width: 100%;
   margin-bottom: 4px;
   width: auto;
   text-align: center;
 }
+
 .section-heading {
   font-size: 20px;
   margin-bottom: 4px;
   width: auto;
   text-align: center;
 }
+
+.section-heading-full {
+  font-size: 20px;
+  margin-bottom: 4px;
+  width: 100%;
+  max-height: 20px;
+  text-align: center;
+}
+
 .post-meta {
   font-size: 12px;
   color: #666;
   margin-bottom: 8px;
 }
+
 .panel-title {
   font-weight: 600;
   margin-bottom: 8px;
 }
+
 .tag {
   display: inline-block;
   padding: 4px 8px;
@@ -133,12 +160,14 @@ body {
   border-radius: 9999px;
   text-decoration: none;
 }
+
 #bottombar {
   border-top: 1px solid #e5e7eb;
   padding: 12px 16px;
   text-align: center;
   color: #777;
 }
+
 #poptags {
   border-top: 1px solid #e5e7eb;
   padding: 12px 16px;
@@ -154,11 +183,12 @@ body {
   box-shadow: 2px 2px 2px black;
   margin-bottom: 12px;
 }
+
 .post-img {
   width: 75%;
   height: auto;
   border-radius: 8px;
   box-shadow: 2px 2px 2px black;
-  margin: 8px 0; 
+  margin: 8px 0;
   display: inline-flex;
 }
