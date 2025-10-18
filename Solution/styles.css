@@ -2,13 +2,31 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+/* added sidenav class also ref .main */
 .sidenav {
-  margin-top: 15px;
-  width: 55%;
-  padding-left: 15px;
-  margin-left:  15px;
-  float:  right;
-  /* background-color: lightgray; */
+  height: 100%;
+  width: 200px;
+  position: relative;
+  margin:auto;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: ##f7f7f7;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  /* color: #818181; */
+  display: block;
+}
+.sidenav a:hover {
+  color: midnightblue;
 }
 #topbar {
   display: flex;
@@ -50,8 +68,6 @@ body {
 }
 .layout {
   display: flex;
-
- 
 }
 .card {
   border: 1px solid #e5e7eb;
@@ -106,38 +122,6 @@ body {
   padding: 12px 16px;
   text-align: center;
   color: #777;
-}
-.right-nav {
-  position:absolute;
-  top: auto;
-  right: 0px;
-  border-top: 1px solid #e5e7eb;
-  padding: 12px 16px;
-  text-align: center;
-  color: #777;
-}
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: relative;
-  z-index: 1;
-  top: 0;
-  right: 20;
-  /* background-color: #111; */
-  /* overflow-x: hidden; */
-  padding-top: 20px;
-}
-/*
-.sidenav a {
-  padding: 6px 6px 6px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-*/
-.sidenav a:hover {
-  color: midnightblue
 }
 
 /* Images */
