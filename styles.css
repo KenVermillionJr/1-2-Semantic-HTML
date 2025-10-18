@@ -92,6 +92,13 @@ body {
   margin-bottom: 4px;
   width: auto;
  }
+ .section-headline {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 4px;
+  width: auto;
+  text-align: center;
+}
 .section-heading {
   font-size: 20px;
   margin-bottom: 4px;
