@@ -1,6 +1,7 @@
 # Challenge: WanderNote — Convert Divs to Semantic HTML
 
 Solved: <a href="https://raw.githack.com/KenVermillionJr/1-2-Semantic-HTML/refs/heads/main/index.html">View Semantic HTML Live</a>
+
 Variants:  <a href="https://raw.githack.com/KenVermillionJr/1-2-Semantic-HTML/refs/heads/main/index.html">View Semantic HTML Live</a>
 
 ## Objective
