@@ -14,7 +14,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: ##f7f7f7;
+  background-color: #f7f7f7;
   overflow-x: hidden;
   padding-top: 20px;
 }
@@ -40,6 +40,8 @@ body {
 }
 #hero {
   padding: 48px 16px;
+  border: 1px solid;
+  border-color: black;
   background: #eef2ff;
   text-align: center;
 }
@@ -62,8 +64,17 @@ body {
 
 #content {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  gap: 16px;
+  grid-template-columns: 2fr 2fr;
+  /* removes whitespace at bottom of grid */
+  grid-template-rows: 100% 100% 1fr auto;
+  border: 1px solid;
+  border-color: black;
+  columns: 2;
+  /* gap: 25px; */
+  /* row-gap: 25px; */
+  /* column-gap: 25px; */
+  /* should place gutter spacing horizontal and vertical */
+  grid-gap: 25px 25px;
   padding: 16px;
 }
 .layout {
@@ -72,8 +83,8 @@ body {
 .card {
   border: 1px solid #e5e7eb;
   background-color: white;
-  /* background-color: eef2ff; */
-  margin: auto 10%;
+  box-shadow: 2px 2px 2px black;  
+  margin: 0 0 15px 0;
   padding: 12px;
   border-radius: 8px;
 }
@@ -91,13 +102,24 @@ body {
   font-size: 20px;
   margin-bottom: 4px;
   width: auto;
-  /* margin: auto 25%; */
+ }
+ .section-headline {
+  font-size: 20px;
+  width: 100%;
+  margin-bottom: 4px;
+  width: auto;
+  text-align: center;
+}
+.section-heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+  width: auto;
+  text-align: center;
 }
 .post-meta {
   font-size: 12px;
   color: #666;
   margin-bottom: 8px;
-  /* margin: auto 25%; */
 }
 .panel-title {
   font-weight: 600;
@@ -129,12 +151,14 @@ body {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
   margin-bottom: 12px;
 }
 .post-img {
   width: 75%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
   margin: 8px 0; 
   display: inline-flex;
 }
