@@ -91,13 +91,17 @@ body {
   font-size: 20px;
   margin-bottom: 4px;
   width: auto;
-  /* margin: auto 25%; */
+ }
+.section-heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+  width: auto;
+  text-align: center;
 }
 .post-meta {
   font-size: 12px;
   color: #666;
   margin-bottom: 8px;
-  /* margin: auto 25%; */
 }
 .panel-title {
   font-weight: 600;
