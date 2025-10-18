@@ -1,5 +1,7 @@
 # Challenge: WanderNote — Convert Divs to Semantic HTML
 
+Solved: <a href="https://raw.githubusercontent.com/KenVermillionJr/1-2-Semantic-HTML/refs/heads/main/index.html">Semantic HTML Live Page</a>
+
 ## Objective
 You are given a **div-heavy** 2010s-style page. Convert it into a clean, accessible, **semantic HTML** layout
 while **preserving the visual design** (CSS already targets ids/classes so your semantic swap won't break).
