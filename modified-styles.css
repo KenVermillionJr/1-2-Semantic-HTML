@@ -31,11 +31,6 @@ body {
   margin: 0 .25em;
 }
 
-a {
-  /* color: blue; */
-  /* background-color: powderblue; */
-}
-
 /* unvisited link */
 a:link {
   color: blue;
