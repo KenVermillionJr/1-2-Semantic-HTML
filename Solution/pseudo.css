@@ -1,0 +1,40 @@
+.nav-link {
+    font-weight: bold;
+    color: #000501;
+    margin: 0 .25em;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    margin: 0 4px 4px 0;
+    border-radius: 9999px;
+    text-decoration: none;
+}
+
+a {
+    color: blue;
+    /* background-color: powderblue; */
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: midnightblue;
+    background-color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: blueviolet;
+}
