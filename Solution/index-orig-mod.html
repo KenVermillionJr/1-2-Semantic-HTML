@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>WanderNote — Travel Journal</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./modified-styles.css" />
   </head>
+
   <body>
-   
-   <header id="topbar">
+    <header id="topbar">
       <h2 class="logo">WanderNote</h2>
       <nav class="links">
         <a class="nav-link" href="#">Home</a>
@@ -18,41 +18,51 @@
       </nav>
     </header>
 
-    <main id="hero">      
-        <header>
-        <img class="hero-img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Traveler overlooking mountains">
-        <h3 class="headline">Stories from the road</h3>
-        <p class="sub">Notes, photos, and pocket itineraries.</p>
-        </header>   
-    </main>   
+    <section class="hero">
+      <h1 class="headline">Stories from the Road</h1>
+      <p class="sub">Notes, photos, and pocket itineraries</p>
+      <figure class="hero-img-container">
+        <img
+          class="hero-img"
+          src="./images/wandernote-spotlight_sm.png"
+          alt="Traveler overlooking mountains"
+        />
+      </figure>
+    </section>
 
-    <div id="content"> <!-- wrapper div styling applies to all children-->
-     
-    <section>
-      
-        <article class="card"> 
-        <header>
-        <h4 class="post-title">Kyoto in 48 Hours</h4>
-        </header>
-        <p class="post-meta">May 2025 · Asia · Budget</p>
-        <img class="post-img" src="https://picsum.photos/id/1016/800/500" alt="Kyoto trip collage">
-        <p>Temple hopping, alley ramen, and morning markets.</p>
-        </article>    
-
-        <article class="card"> 
+    <main id="content">
+      <section>
+        <h3 class="section-heading">Travel Highlights</h3>
+        <article class="card">
           <header>
-          <h4 class="post-title">Lisbon Hill Walk</h4>
+            <h4 class="post-title">Kyoto in 48 Hours</h4>
           </header>
-          <p class="post-meta">April 2025 · Europe · Walkable</p>
-          <img class="post-img" src="https://picsum.photos/id/1035/800/500" alt="Lisbon city view">
-          <p>Tiles, trams, and sunset at Miradouro.</p>          
+          <p class="post-meta">May 2025 · Asia · Budget</p>
+          <img
+            class="post-img"
+            src="https://picsum.photos/id/1016/800/500"
+            alt="Kyoto trip collage"
+          />
+          <p>Temple hopping, alley ramen, and morning markets.</p>
         </article>
 
-      </section> 
+        <article class="card">
+          <header>
+            <h4 class="post-title">Lisbon Hill Walk</h4>
+          </header>
+          <p class="post-meta">April 2025 · Europe · Walkable</p>
+          <img
+            class="post-img"
+            src="https://picsum.photos/id/1035/800/500"
+            alt="Lisbon city view"
+          />
+          <p>Tiles, trams, and sunset at Miradouro.</p>
+        </article>
+      </section>
 
-    <section>
-
-        <aside class="sidenav"> 
+      <section>
+        <h3 class="section-heading">Deeper Dive</h3>
+        <aside class="card">
           <h4 class="panel-title">Popular Tags</h4>
           <nav class="tag-list">
             <a href="#" class="tag">streetfood</a>
@@ -60,8 +70,8 @@
             <a href="#" class="tag">budget</a>
           </nav>
         </aside>
-        
-    </div> <!-- wrapper div styling -->
+      </section>
+    </main>
 
     <footer id="bottombar">
       <p class="copy">© 2025 WanderNote</p>
