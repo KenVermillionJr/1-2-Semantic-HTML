@@ -26,13 +26,9 @@ body {
   color: blue;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1em;
   color: #000501;
   margin: 0 .25em;
-}
-
-a {
-  /* color: blue; */
-  /* background-color: powderblue; */
 }
 
 /* unvisited link */
