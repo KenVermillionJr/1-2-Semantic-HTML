@@ -57,6 +57,13 @@ a:active {
 }
 
 /* Images */
+.hero-img-container {
+  width: 100%;
+  height: 75vh;
+  margin: 1.5em auto;
+}
+
+/* Images */
 .hero-img {
   width: 100%;
   height: 100%;
@@ -131,13 +138,6 @@ a:active {
   border-top: 1px solid #e5e7eb;
   padding: 12px 16px;
   background: #f9fafb;
-}
-
-/* Images */
-.hero-img-container {
-  width: 100%;
-  height: 75vh;
-  margin: 1.5em auto;
 }
 
 .post-img-container {
