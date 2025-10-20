@@ -54,6 +54,17 @@ body {
   text-align: center;
 }
 
+/* Images */
+.hero-img {
+  /* max-width: 100%; */
+  /* height: auto; */
+  max-width: 85%;
+  max-height: 65%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px black;
+  margin-bottom: 12px;
+}
+
 .headline {
   font-size: 28px;
   margin-bottom: 8px;
@@ -173,15 +184,6 @@ body {
   padding: 12px 16px;
   text-align: center;
   color: #777;
-}
-
-/* Images */
-.hero-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 2px 2px 2px black;
-  margin-bottom: 12px;
 }
 
 .post-img {
